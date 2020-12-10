@@ -1,0 +1,125 @@
+//container
+.container {
+    width: 1300px; 
+    padding: 0 10px;
+    margin: 0 auto;
+}
+//titleWrap
+.titleWrap {
+    padding: 20vh 0;
+    h1{
+        font-size: 144px;
+        font-family: $font-main;
+        line-height: 1;
+        font-weight: bold;
+        span {
+            display: block;
+            text-transform: uppercase;
+        }
+    }
+}
+
+//main
+#mainCont {
+
+}
+.mainCont {
+
+}
+
+//about
+#aboutCont {
+
+}
+.aboutCont {
+
+    > div {
+        font-size: 1.2rem;
+        font-family:$font-korea-main;
+            h2 {
+                font-family: $font-korea-main;
+                font-size: 1.5rem; font-weight: bold;
+                margin : {
+                    top: 60px;
+                    bottom: 30px;
+                }
+            }
+            p {
+                line-height: 1.5;
+                margin-bottom: 350px;
+            }
+        }       
+        > div:nth-child(1) {
+            .aiLeft {
+                width: 100%;
+            }
+            .aiRight {
+                width: 60%;
+            }
+        }
+        > div:nth-child(2) {
+                display:flex; margin-bottom: 350px;
+            .aiLeft {
+                flex: 1 1 70%;
+            }
+            .aiRight {
+                flex: 1 1 30%;
+            }
+            h2{
+                margin-top: 0;
+            }
+        }
+        > div:nth-child(3) {
+            display:flex; flex-direction: row-reverse; justify-content: space-between;
+            margin-bottom: 350px;
+        .aiLeft {
+            flex: 0 0 56%;
+        }
+        .aiRight {
+            flex: 0 0 40%;
+        }
+        h2 { 
+            margin-top: 0; 
+        }
+    }
+}
+
+//reference
+#referCont {
+
+}
+.referCont {
+
+}
+
+//Ani
+#aniCont {
+
+}
+.aniCont {
+
+}
+
+//contact
+#contactCont {
+
+}
+.contactCont {
+
+}
+
+//script
+#scriptCont {
+
+}
+.scriptCont {
+
+}
+
+//site
+#siteCont {
+
+}
+.siteCont {
+
+}
